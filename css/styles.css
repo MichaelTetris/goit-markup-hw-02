@@ -1,18 +1,51 @@
-body{
-  font-family: "Roboto", sans-serif;
+:root{
+  --main-title-color:#ffffff;
+  --second-title-color:#2E2F42;
+  
 }
 
-/* ? -----------------HEADER------------------
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #434455;
+
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/*? --------HEADER-----------*/
 
 .header {
+  background: #fff;
 }
 .header-navigation {
 }
 .main-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1, 17;
+  color: var(--second-title-color)
+}
+.logo-span {
+  color: #4d5ae5;
 }
 .header-list {
 }
 .header-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: var(--second-title-color)
 }
 .header-link {
 }
@@ -20,9 +53,190 @@ body{
 }
 .address-list {
 }
+.adress-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+}
 .item-contact {
+  color: #434455;
 }
-.item-mail {
+
+
+/*? --------HEADER-----------*/
+
+.hero {
+  background: #000;
 }
-.item-phone {
+
+.hero-title {
+  font-style: normal;
+  font-size: 56px;
+  line-height: 1, 07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+
+.hero-btn {
+  background: #4d5ae5;
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {color: ;}
+
+.btn-text-hero {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+/*? --------WHAT ARE WE DOING-----------*/
+
+.benefits {
+  background: #fff;
+}
+
+.benefits-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  letter-spacing: 0.02em;
+  color: var(--second-title-color);
+}
+
+.benefits-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.exemple-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 11;
+  letter-spacing: 0.02em;
+  color: var(--second-title-color);
+}
+
+/*? --------OUR TEAM-----------*/
+
+.team {
+  background: #f4f4fd;
+}
+
+.team-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 11;
+  letter-spacing: 0.02em;
+  color: var(--second-title-color)
+}
+
+.team-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  letter-spacing: 0.02em;
+  color: var(--second-title-color);
+}
+
+.team-post {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+/*! --------======PORTFOLIO========-----------*/
+
+/*? --------FILTER-----------*/
+
+.filter {
+  background: #ffffff;
+}
+
+.filter-btn {
+  background: #f4f4fd;
+  border: none;
+  cursor: pointer;
+  
+
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  background: #404BBF;
+}
+
+.filter-btn-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+}
+.filter-btn-text:hover{color:#ffffff},
+.filter-btn-text:focus{
+  color:#fff;
+}
+
+/*? --------PROJECTS-----------*/
+
+.project-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  letter-spacing: 0.02em;
+  color: var(--second-title-color);
+}
+
+.project-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+/*? --------FOOTER-----------*/
+
+.footer {
+  background: #2e2f42;
+}
+
+.footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1, 17;
+  letter-spacing: 0.03em;
+  color: #f4f4fd;
+}
+
+.footer-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
