@@ -90,7 +90,7 @@ body {
   font-style: normal;
   font-size: 56px;
   line-height: 1, 07;
-  text-align: center;
+  text-align: ;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
 }
@@ -161,6 +161,10 @@ body {
   line-height: 1, 11;
   letter-spacing: 0.02em;
   color: var(--second-title-color);
+}
+
+.team-item{
+  background: #ffffff;
 }
 
 .team-name {
