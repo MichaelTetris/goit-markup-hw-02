@@ -1,14 +1,13 @@
-:root{
-  --main-title-color:#ffffff;
-  --second-title-color:#2E2F42;
-  
+:root {
+  --main-title-color: #ffffff;
+  --second-title-color: #2e2f42;
+  --active-link-color: #404bbf;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: #434455;
-
 }
 
 .link {
@@ -32,7 +31,7 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1, 17;
-  color: var(--second-title-color)
+  color: var(--second-title-color);
 }
 .logo-span {
   color: #4d5ae5;
@@ -45,8 +44,17 @@ body {
   font-size: 16px;
   line-height: 1, 5;
   letter-spacing: 0.02em;
-  color: var(--second-title-color)
+  color: var(--second-title-color);
 }
+
+.header-link:hover {
+  color: var(--active-link-color);
+}
+,
+.header-link:focus {
+  color: var(--active-link-color);
+}
+
 .header-link {
 }
 .header-contact {
@@ -64,8 +72,15 @@ body {
   color: #434455;
 }
 
+.item-contact:hover {
+  color: var(--active-link-color);
+}
+,
+.item-contact:focus {
+  color: var(--active-link-color);
+}
 
-/*? --------HEADER-----------*/
+/*? --------HERO-----------*/
 
 .hero {
   background: #000;
@@ -84,8 +99,14 @@ body {
   background: #4d5ae5;
   cursor: pointer;
 }
-.hero-btn:hover,
-.hero-btn:focus {color: ;}
+
+.hero-btn:hover {
+  background: var(--active-link-color);
+}
+,
+.hero-btn:focus {
+  color: var(--active-link-color);
+}
 
 .btn-text-hero {
   font-style: normal;
@@ -112,8 +133,6 @@ body {
 }
 
 .benefits-text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1, 5;
   letter-spacing: 0.02em;
@@ -141,7 +160,7 @@ body {
   font-size: 36px;
   line-height: 1, 11;
   letter-spacing: 0.02em;
-  color: var(--second-title-color)
+  color: var(--second-title-color);
 }
 
 .team-name {
@@ -154,8 +173,6 @@ body {
 }
 
 .team-post {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1, 5;
   letter-spacing: 0.02em;
@@ -170,17 +187,22 @@ body {
   background: #ffffff;
 }
 
+.filter-list:focus{
+  color: var(--active-link-color);
+}
+
 .filter-btn {
   background: #f4f4fd;
   border: none;
   cursor: pointer;
-  
-
 }
 
-.filter-btn:hover,
+.filter-btn:hover {
+  background: var(--active-link-color);
+}
+,
 .filter-btn:focus {
-  background: #404BBF;
+  background: var(--active-link-color);
 }
 
 .filter-btn-text {
@@ -191,9 +213,12 @@ body {
   letter-spacing: 0.04em;
   color: #4d5ae5;
 }
-.filter-btn-text:hover{color:#ffffff},
-.filter-btn-text:focus{
-  color:#fff;
+.filter-btn-text:hover {
+  color: #ffffff;
+}
+,
+.filter-btn-text:focus {
+  color: #fff;
 }
 
 /*? --------PROJECTS-----------*/
@@ -208,8 +233,6 @@ body {
 }
 
 .project-description {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1, 5;
   letter-spacing: 0.02em;
@@ -233,8 +256,6 @@ body {
 }
 
 .footer-text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1, 5;
   letter-spacing: 0.02em;
